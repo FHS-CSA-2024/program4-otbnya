@@ -1,37 +1,53 @@
 //Youre on your own!
-import java.util.Scanner; 
-
 //Jk ask for help if you need it (but also look at previous programs!!)
+import java.util.Scanner;
+
 public class Program4 {
     public static void main(String[] args){
-        //the scanner
-        Scanner myScanner = new Scanner(System.in); 
+        //Declare Variable
+        int val1 = 0;
+        int val2 = 0;
+        int val3 = 0;
+        int val4 = 0;
         
+        //Create my scanner
+        Scanner valScanner = new Scanner(System.in);
         
+        //Ask for user input
+        System.out.println("Enter the val1: ");
+        val1 = valScanner.nextInt();
         
-        //declare the variables
-        int number1 = 0;
-        int number2 = 0;
-        int number3 = 0;
-        int number4 = 0;
+        System.out.println("Enter the val2: ");
+        val2 = valScanner.nextInt();
         
-        // ask user for input
-        System.out.println("Please enter Number 1: "); 
-        number1 = myScanner.nextInt(); 
+        System.out.println("Enter the val3: ");
+        val3 = valScanner.nextInt();
         
-        System.out.println("Please enter Number 2: ");
-        number2 = myScanner.nextInt();
+        System.out.println("Enter the val4: ");
+        val4 = valScanner.nextInt();
         
+        //Add and store the ans
+        int val5 = val1+val2+val3+val4;
         
-        
-        
-        
-        
+        //Avg and store in var6
+        double val6 = val5/4.0;
+        //Print results
+        System.out.println("The sum of the four numbers is " + val5);
+        System.out.println("The average of the four numbers is " + val6);
     }
 }
 
+
 //Paste console output below:
-/*
+Enter the val1: 
+475
+Enter the val2: 
+821
+Enter the val3: 
+369
+Enter the val4: 
+562
+The sum of the four numbers is 2227
+The average of the four numbers is 556.75
+//*
 
-
-*/
