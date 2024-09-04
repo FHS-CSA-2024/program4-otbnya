@@ -2,6 +2,12 @@
 //Jk ask for help if you need it (but also look at previous programs!!)
 public class Program4{
   public static void main(String[] args){
+    //Declare Variable 
+    int val1 = 0; 
+    int val2 = 0; 
+    int val3 = 0; 
+    int val4 = 0;
+    
     //Create my scanner
     Scanner valScanner = new Scanner(System.in);
     
